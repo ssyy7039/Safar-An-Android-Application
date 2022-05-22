@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signin"
+    android:orientation="vertical"
+    android:background="@drawable/cgb">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome Yatri"
+        android:textColor="#DA9812"
+        android:textSize="42sp"
+        android:layout_weight="3"
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedcorners"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username / Email Id"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColor="#DA9812"
+        android:textColorHint="#DA9812"
+        android:textColorLink="#DA9812"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+       />
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedcorners"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#DA9812"
+        android:textColorHint="#DA9812"
+        android:textColorLink="#DA9812"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#da9812"
+        android:text="Forgot password?"
+        android:textColor="#da9812"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/roundedcorners"
+        android:text="Sign In"
+        android:textColor="#000000"
+        android:textColorHint="#DA9812"
+        android:textSize="18sp"
+        android:backgroundTint="#da9812"/>
+
+
+
+</LinearLayout>

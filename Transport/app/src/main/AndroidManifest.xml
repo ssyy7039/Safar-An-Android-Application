@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.transport">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="Safar"
+        android:roundIcon="@drawable/icon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TermsandConditions"></activity>
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyBookings2" />
+        <activity android:name=".MyBookings" />
+        <activity android:name=".UpdateVehicale" />
+        <activity android:name=".Updateprofile" />
+        <activity android:name=".Forgotpassword" />
+        <activity android:name=".Renterdetails" />
+        <activity android:name=".MyRenters" />
+        <activity android:name=".MyVehicales2" />
+        <activity android:name=".MyVehicales" />
+        <activity android:name=".Profile2" />
+        <activity android:name=".Personaldetails" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Book_Vehicale" />
+        <activity android:name=".ViewVehicaleDetails" />
+        <activity android:name=".Home" />
+        <activity android:name=".Addvehicale" />
+        <activity android:name=".Signin" />
+        <activity android:name=".Getotp" />
+        <activity android:name=".Contactus" />
+        <activity android:name=".Registeration" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

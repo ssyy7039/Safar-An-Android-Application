@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyBookings2"
+    android:orientation="vertical"
+    android:background="@drawable/cgb">
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/index"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="5dp" />
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="#DA9812"
+        android:textColor="#DA9812"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="#DA9812"
+        android:textColor="#DA9812"
+        android:textSize="20sp" android:layout_weight="1"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="#DA9812"
+        android:textColor="#DA9812"
+        android:textSize="20sp" android:layout_weight="1"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="#DA9812"
+        android:textColor="#DA9812"
+        android:textSize="20sp" android:layout_weight="1"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="#DA9812"
+        android:textColor="#DA9812"
+        android:textSize="20sp" android:layout_weight="1"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="#DA9812"
+        android:textColor="#DA9812"
+        android:textSize="20sp" android:layout_weight="1"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="#DA9812"
+        android:textColor="#DA9812"
+        android:textSize="20sp" android:layout_weight="1"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:id="@+id/textView30" android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="#DA9812"
+        android:textColor="#DA9812"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_register"
+        android:backgroundTint="#da9812"
+        android:text="delete/cancel booking"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:layout_weight="0"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+
+</LinearLayout>

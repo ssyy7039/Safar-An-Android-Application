@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629500721419",
+    "project_id": "ashwinproject-9287b",
+    "storage_bucket": "ashwinproject-9287b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629500721419:android:6381b670d8896746cf0a0e",
+        "android_client_info": {
+          "package_name": "com.example.transport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629500721419-ihq9j0gu12bkhaocvgelt5f6elcn46hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIiW-WInJwmUUl_c6Ey4EmsUvd_QbubJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629500721419-ihq9j0gu12bkhaocvgelt5f6elcn46hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

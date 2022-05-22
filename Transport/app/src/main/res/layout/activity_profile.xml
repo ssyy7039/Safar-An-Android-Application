@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    android:background="@drawable/cgb">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:textColor="#DA9812"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+       />
+    <Button
+        android:id="@+id/personal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/edittext_register"
+        android:backgroundTint="#da9812"
+        android:text="Personal Details"
+        android:textColor="#000000"
+        android:textSize="24sp"
+      />
+
+    <Button
+        android:id="@+id/myvehicale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/edittext_register"
+        android:backgroundTint="#da9812"
+        android:text="My vehicale"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/mybookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/edittext_register"
+        android:backgroundTint="#da9812"
+        android:text="My Bookings"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/myrenters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/edittext_register"
+        android:backgroundTint="#da9812"
+        android:text="My Renters"
+        android:textColor="#000000"
+        android:textSize="24sp"
+       />
+
+
+</LinearLayout>

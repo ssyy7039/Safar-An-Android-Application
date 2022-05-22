@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Transport</string>
+    <string name="addvehicle">spinner</string>
+    <string-array name="numbers">
+        <item>Select your vehicale Type</item>
+        <item>Car</item>
+        <item>Tempo</item>
+        <item>Autoriksha</item>
+        <item>Truck</item>
+        <item>Bus</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cgb"
+    android:orientation="vertical"
+    tools:context=".Renterdetails">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user_vector"
+        android:layout_weight="2"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Renters"
+        android:textColor="#FFC107"
+        android:textSize="23dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Renters"
+        android:textColor="#FFC107"
+        android:textSize="23dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Renters"
+        android:textColor="#FFC107"
+        android:textSize="23dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Renters"
+        android:textColor="#FFC107"
+        android:textSize="23dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Renters"
+        android:textColor="#FFC107"
+        android:textSize="23dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Renters"
+        android:textColor="#FFC107"
+        android:textSize="23dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Renters"
+        android:textColor="#FFC107"
+        android:textSize="23dp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Renters"
+        android:textColor="#FFC107"
+        android:textSize="23dp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_register"
+        android:backgroundTint="#da9812"
+        android:text="Delete"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+       />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsandConditions">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:background="@drawable/cgb">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/renter"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="* FOR RENTERS"
+                android:textColor="#da9812"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="439dp"
+                android:layout_below="@+id/renter"
+                android:layout_marginTop="3dp"
+                android:text="*  The renters should have to confirm their booking by contacting Owners within 24 hours.                                               *  Renters should have to verify their documents(original+xerox)  at the time of vehicle Delivery.
+                                         *  This app is only provide the facility to give their vehcle on rent.Rest thing has been done to the user Manually like Payments,Confirmation of the bookings and so on.
+
+                                                        *   In the booking period the renters has a full responsibility of the vehicle.
+                *   The renters have to clear their all his query from the Owners after vehicle bookings. "
+                android:textSize="22dp"
+                android:textColor="#da9812" />
+
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

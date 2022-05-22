@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_addvehicale.xml" value="0.10989583333333333" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_book__vehicale.xml" value="0.10989583333333333" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_contactus.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_forgotpassword.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_getotp.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_my_bookings.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_my_bookings2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_my_renters.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_my_vehicales.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_my_vehicales2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_personaldetails.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_profile2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_registeration.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_renterdetails.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_signin.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_splash.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_termsand_conditions.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_update_vehicale.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_updateprofile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/activity_view_vehicale_details.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/cardbook.xml" value="0.22826086956521738" />
+        <entry key="..\:/Transport/app/src/main/res/layout/cardrenters.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

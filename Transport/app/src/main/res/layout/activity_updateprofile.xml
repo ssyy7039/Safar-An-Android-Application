@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Updateprofile"
+    android:orientation="vertical"
+    android:background="@drawable/cgb">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_weight="2"
+        app:srcCompat="@drawable/user_vector"
+        tools:ignore="VectorDrawableCompat" />
+
+
+
+    <EditText
+        android:id="@+id/editText36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_register"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textColor="#DA9812"
+        android:textColorHint="#DA9812"
+       />
+    <EditText
+        android:id="@+id/editText37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_register"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Enter Your Email"
+        android:inputType="textPersonName"
+        android:textColor="#DA9812"
+        android:textColorHint="#DA9812"
+        />
+
+    <EditText
+        android:id="@+id/editText38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_register"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Enter Your ContactNo."
+        android:inputType="textPersonName"
+        android:textColor="#DA9812"
+        android:textColorHint="#DA9812"
+        />
+
+    <EditText
+        android:id="@+id/editText39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_register"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Enter Your Password"
+        android:inputType="textPersonName"
+        android:textColor="#DA9812"
+        android:textColorHint="#DA9812"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editText40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_register"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Enter Your Address"
+        android:inputType="textPersonName"
+        android:textColor="#DA9812"
+        android:textColorHint="#DA9812"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_register"
+        android:backgroundTint="#da9812"
+        android:text="Save"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        />
+
+</LinearLayout>
